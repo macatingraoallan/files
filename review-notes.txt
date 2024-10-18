@@ -1,0 +1,41 @@
+Main Function of the App
+The app's primary function allows a user (Host) to create a service that another user (Guest) can book.
+
+Steps for the Host to Create a Service
+----------------------------------------
+1. Login as Host: Sign in to the app using your Host account.
+2. Add a Service: Tap on the 'Add Service' button.
+3. Complete the Required Fields: Fill out all the necessary information for your service.
+4. Save: Once all details are entered, save the service.
+
+Steps for the Guest to Book a Service
+----------------------------------------
+1. Obtain Host Profile Link:
+    - The Guest account must have the Host's profile link to proceed with booking.
+    - Copy the Host's profile link and share it with the Guest account.
+
+2. Open the Host Profile:
+    - The Guest should tap on the Host profile link.
+    - Using deep linking, the app should open automatically on the Guest's device.
+
+3. View Services and Book:
+    - Once the Host profile is open on the Guest's device, browse the list of available services.
+    - Tap on the service you want to book and select "Book Now."
+    - Complete the required details and choose the schedule for the booking.
+
+4. Host Reviews the Booking Request:
+    - The Host account will receive the booking details in the "Request" section on the home screen.
+    - Tap on the request to either accept or reject it.
+
+5. Guest Makes the Payment:
+    - After the Host accepts the booking, the Guest should go to the "Transaction" tab.
+    - Locate the pending booking request and tap on "Pay."
+    - Once the payment is complete, the appointment is confirmed and scheduled.
+
+6. Join the Session:
+    - After the booking is confirmed, the Guest can tap on the booking and select "Join Call" to join the session at the scheduled time.
+
+
+
+
+
